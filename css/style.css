@@ -234,7 +234,7 @@ a:focus {
 }
 
 .navbar-default .navbar-brand {
-    color: #373737;
+    color: #289aa5;   /* #373737 */
 	font-family: 'Montserrat';
 	letter-spacing: -3.5px;
 	text-transform: uppercase;
