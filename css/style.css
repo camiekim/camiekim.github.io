@@ -430,8 +430,7 @@ a:focus {
 }
 
 .btn-primary:hover {
-    background-color: #525252;
-    border-color: #525252;
+    opacity: 0.5;
 }
 
 .btn-primary.focus, .btn-primary:focus {
@@ -474,7 +473,7 @@ a:focus {
 }
 
 .btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
-    color: #fff;   
+    color: #fff;
     background-color: #5c5c5c;
     border-color: #5c5c5c;
 }
