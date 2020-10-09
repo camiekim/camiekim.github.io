@@ -240,6 +240,14 @@ a:focus {
 	text-transform: uppercase;
 }
 
+a.navbar-brand:hover{
+	opacity: 0.5;
+}
+
+a.navbar-brand.scroll-top:visited {
+	color: #289aa5;
+}
+
 .navbar-default .navbar-nav > li > a {
     color: #adadad;
     line-height: 50px;
