@@ -596,7 +596,7 @@ blockquote .small, blockquote footer, blockquote small {
 #work h3 {
     font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
-    font-weight: 200;
+    font-weight: 300;
     color: #333333;
     display: inline;
 }
