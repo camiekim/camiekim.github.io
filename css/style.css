@@ -234,11 +234,22 @@ a:focus {
     background-color: #fff;
 }
 
+@media screen and (min-width: 571px) {
 .navbar-default .navbar-brand {
     color: #289aa5;   /* #373737 */
 	font-family: 'Caveat';
 	letter-spacing: -3.5px;
 	font-size: 72px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+.navbar-default .navbar-brand {
+    color: #289aa5;   /* #373737 */
+	font-family: 'Caveat';
+	letter-spacing: -3.5px;
+	font-size: 44px;
+  }
 }
 
 a.navbar-brand:hover{
