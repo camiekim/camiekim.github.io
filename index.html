@@ -360,7 +360,7 @@
 				<div class="col-md-10 col-md-offset-1">
 
 					<p class="mt15">I am an award-winning creative writer and my works of fiction have appeared in several
-					literary journals and anthologies. I love to bake and I also enjoy reading, travelling, and yoga. </p>
+					literary journals and anthologies. I also enjoy reading, travelling, and yoga. </p>
 
 					<!-- Carousel -->
 					<div class="carousel slide mt30" id="quote-carousel" data-ride="carousel" data-interval="5000">
@@ -441,11 +441,12 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
-					&copy; 2023 <a href="#">Camie Kim</a>. All Rights Reserved.
+					&copy; <span id="year"></span> <a href="#">Camie Kim</a>. All Rights Reserved.
 				</div><!-- /.column -->
 			</div><!-- /.row -->
 		</div><!-- /.container -->
 	</footer>
+	<script>document.getElementById("year").innerHTML = new Date().getFullYear();</script>
 	<!-- End Footer -->
 
 	<!-- Bootstrap script -->
